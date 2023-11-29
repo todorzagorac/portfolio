@@ -15,7 +15,7 @@ blok2.addEventListener('click',redirect2);
 
 var blok3 = document.querySelector('#projekat3');
 function redirect3(){
-    window.location.href="https://todorz4.github.io/malani/";
+    window.location.href="https://zagoractodor.000webhostapp.com/index.html";
 }
 blok3.addEventListener('click',redirect3);
 
