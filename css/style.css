@@ -129,7 +129,19 @@ span{
   .tekstProject:hover{
     opacity:1;
   }
+
+
+
 #napomena{
-    color:red;
+    color:skyblue;;
     font-size:15px;
 }
+
+  .project-languages {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #bojaKred{
+    color:skyblue;
+  }
