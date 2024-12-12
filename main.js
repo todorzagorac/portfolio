@@ -26,3 +26,19 @@ function redirect4(){
 }
 
 blok4.addEventListener('click',redirect4);
+
+
+var blok5 = document.querySelector('#projekat5');
+function redirect5(){
+    window.location.href="https://savacar.rs/kalkulator-registracije/";
+}
+
+blok5.addEventListener('click',redirect5);
+
+
+var blok6 = document.querySelector('#projekat6');
+function redirect6(){
+    window.location.href="https://savacar.rs/zakazivanje-termina/";
+}
+
+blok6.addEventListener('click',redirect6);
