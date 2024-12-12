@@ -1,0 +1,194 @@
+html { scroll-behavior: smooth; }
+body{
+    
+    height: 100vh;
+    width:100vw;
+}
+#navigacija{
+    background-color: white;
+    
+    
+
+
+}
+nav a{
+    color:#354649;
+    font-size: 15px;
+    
+}
+nav a:hover{
+    color: #6C7A89;
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+span{
+    font-size: 30px;
+    color:#005c87;
+}
+#blok1{
+    
+    background-color: white;
+    border-bottom: 10px solid #005c87;
+    
+    
+}
+
+#slika{
+    width:80%;
+    height:80%;
+}
+#slikeProject{
+    width:80%;
+    height:80%;
+}
+.ikonice{
+    font-size: 15px;
+    color:#005c87;
+   
+}
+#imeBlok{
+    border-bottom: #005c87 solid 1px;
+}
+#ime3{
+    font-size: 20px;
+   
+}
+
+/*@media (max-width: 1420px){
+    #slika{
+        width:100%;
+        height:60%;
+    }
+
+}*/
+
+@media (max-width: 1600px){
+    #slika{
+        width:100%;
+        height:auto;
+    }
+
+}
+
+
+#btn {
+    background-color: #005c87;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  #skillsBlok{
+    background-color:white;
+    
+
+  
+  }
+  .skills{
+    border-radius: 5%;
+    background-color: #E0E7E9;
+   
+  }
+  .projects{
+   
+    background-color: #E0E7E9;
+    position:relative;
+   
+  }
+  #skillName{
+    color: #005c87;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  #ProjectName{
+    color:white;
+  }
+  #ProjectBlok{
+    background-color:#354649;
+  }
+  .tekstProject{
+    width: 100%;
+   height: 100%;
+    top:0;
+    left:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+   /* flex-direction: column;*/
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: 0.6s;
+  }
+  .tekstProject:hover{
+    opacity:1;
+  }
+
+
+
+#napomena{
+    color:skyblue;;
+    font-size:15px;
+}
+
+  .project-languages {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  #bojaKred{
+    color:skyblue;
+  }
+        
+
+  .dots {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 5px;
+    animation: fall 1.5s infinite ease-in-out;
+}
+
+.dot:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.dot:nth-child(2) {
+    animation-delay: 0.3s;
+}
+
+.dot:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.text {
+    font-size: 24px;
+    color: white;
+    margin-top: 20px;
+}
