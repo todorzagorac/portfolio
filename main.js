@@ -22,7 +22,7 @@ blok3.addEventListener('click',redirect3);
 var blok4 = document.querySelector('#projekat4');
 
 function redirect4(){
-    window.location.href="https://fashion-park.000webhostapp.com/index.php";
+    window.location.href="https://trendycloset.in.rs/index.php";
 }
 
 blok4.addEventListener('click',redirect4);
